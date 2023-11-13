@@ -16,26 +16,32 @@ class ChatApplication:
         self.window.title("Chat")
         self.window.resizable(width=False, height=False)
         self.window.configure(width=800, height=700, bg=BG_COLOR)
+        
         # head label
         head_label = Label(self.window, bg=BG_COLOR, fg=TEXT_COLOUR,
                             text="Welcome", font=FONT_BOLD, pady=10)
         head_label.place(relwidth=1)
+
         #tiny divider
         line = Label(self.window, width=450, bg=BG_GRAY)
         line.place(relwidth=1, rely=0.07, relheight=0.012)
+
         #text widget
         self.text_widget = Text(self.window, width=20, height=2, bg=BG_COLOR, fg=TEXT_COLOUR,
                                 font=FONT, padx=5, pady=5)
         self.text_widget.place(relheight=0.745, relwidth=1, rely=0.08)
         self.text_widget.configure(cursor="arrow", state=DISABLED)
+
         #bottom label
         bottom_label = Label(self.window, bg=BG_GRAY, height=80)
         bottom_label.place(relwidth=1, rely=0.825)
+
         #message entry box
         self.msg_entry = Entry(bottom_label, bg="#2C3E50", fg=TEXT_COLOUR, font=FONT)
         self.msg_entry.place(relwidth=0.74, relheight=0.06, rely=0.008, relx=0.011)
         self.msg_entry.focus()
         self.msg_entry.bind("<Return>", self._on_enter_pressed)
+
         #send button
         send_button = Button(bottom_label, text="Send", font=FONT_BOLD, width=20, bg=BG_GRAY,
                              command= lambda: self._on_enter_pressed(None))
