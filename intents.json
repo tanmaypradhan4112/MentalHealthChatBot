@@ -36,7 +36,6 @@
                 "Hey, is everything okay?",
                 "Hi, is everything alright?"
             ],
-
             "responses": [
                 "Hey! Welcome to Aura.",
                 "Hi there, I'm doing well! My name's Aura, what can I do for you?",
@@ -54,8 +53,6 @@
                 "Hi! I'm Aura, your mental health buddy. How can I support you?",
                 "Hey! Aura here, ready to listen. What's on your mind?"
             ]
-            
-            
         },
         {
             "tag": "goodbye",
@@ -76,7 +73,6 @@
                 "Toodles",
                 "Bye for now"
             ],
-            
             "responses": [
                 "See you later! Take care!",
                 "Have a peaceful day! Remember, self-care is important.",
@@ -100,7 +96,6 @@
                 "Sending you virtual hugs and positive vibes. Take care and be well.",
                 "Take care, and remember that you are enough, just as you are."
             ]
-            
         },
         {
             "tag": "thanks",
@@ -151,9 +146,10 @@
                 "You're a saint",
                 "You're the best thing that happened today"
             ],
-            
             "responses": [
-                "Happy to help!", "Any time!", "My pleasure",
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
                 "Happy to help, superhuman friend!",
                 "You betcha! I'm like a 24/7 comedy show... minus the bad jokes!",
                 "Anytime! I'm always up for a chat, even if it's just to debate who'd win in a dance-off!",
@@ -165,9 +161,7 @@
                 "You got it, friendo! Remember, smiling is my favorite emoji!",
                 "Happy to be of service! If I could, I'd be doing a little victory dance right now. You're awesome!"
             ]
-
         },
-
         {
             "tag": "about",
             "patterns": [
@@ -183,7 +177,7 @@
                 "What kind of help can you offer?",
                 "Are you able to provide resources?",
                 "How do you handle confidentiality?"
-            ], 
+            ],
             "responses": [
                 "Love that question! My name's Aura, your mental health friend! I've been trained to support you through any of the issues and things that you're going through in life right now. I'm all ears and want to support you through your ups and downs. Technically, I'm a computer that's been trained by a human, but I like to think of myself as human!",
                 "Hey! I love that question! My name is Aura, and I want to be your mental health friend and support you! My fellow human friends have trained me to be a compassionate listener and support buddy when things are going well, and particularly when things aren't going so well.",
@@ -196,9 +190,7 @@
                 "I'm Aura, your mental health companion. I'm here to help and listen. Even though I'm not a person, I'm trained to provide you with support and understanding.",
                 "Hello! I'm Aura, your mental health buddy. I'm here to assist and support you. Although I'm not a real person, I'm trained to be a caring and empathetic listener."
             ]
-            
         },
-
         {
             "tag": "anxiety",
             "patterns": [
@@ -255,4 +247,4 @@
             ]
         }
     ]
-  }
+}
